@@ -1,0 +1,26 @@
+.box{
+	
+	position: relative;
+	filter: blur(2px);
+	transition: 0.5px;
+}
+.box:hover{
+	filter: blur(0.2px);
+}
+.box::after{
+	content: '';
+	position: absolute;
+	filter: opacity(0);
+}
+.box:hover::after,
+.box:hover span:not(:first-child){
+	animation: aim 1s linear infinite alternate;
+}
+@keyframes aim{
+	from{
+		filter: opacity(0.2);
+	}
+	to{
+		filter: opacity(0.8);
+	}
+}
