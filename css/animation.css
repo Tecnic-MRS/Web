@@ -132,3 +132,11 @@
   from {opacity: .4} 
   to {opacity: 1}
 }
+#pie{
+height: 80px;
+color: black;
+text-align: center;
+clear: both;
+}
+
+
