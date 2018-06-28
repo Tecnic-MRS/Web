@@ -106,28 +106,65 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="containergalery">
-            <div class="left">
-            <img src="img/icons/slideshow/mrslogo.png" class="photog" align="left">
-                </div> 
-            <div class="right">
-            <img src="img/icons/slideshow/soporte1.png" class="photog" align="right">
-                </div>
-                <div class="left">
-            <img src="img/icons/slideshow/red.png" class="photog" align="left">
-                </div> 
-            <div class="right">
-            <img src="img/icons/slideshow/ServiceEnd.png" class="photog" align="right">
-                </div>
-                    <div class="left">
-            <img src="img/icons/slideshow/based.png" class="photog" align="left">
-                </div> 
-            <div class="right">
-            <img src="img/icons/slideshow/manten2.png" class="photog" align="right">
-                </div>
-            </div>
+      <div class="container" id="Myphoto">
+          <div class="w3-content w3-section" style="max-width:100%">
+          <div class="mySlides w3-animate-top">
+            <img src="img/icons/slideshow/mrslogo.png" class="photog">
+            <div class="content1">
+  <h1>Servicio de calidad</h1>
+<!-- Use a button to pause/play the video with JavaScript -->
+  <div class="pre-spoiler">    <span style="color: white;"></span> <input type="button" id="myBtn" value="Más" style="width:80px;font-size:15px;margin:0px;padding:0px;" onclick=    "if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ocultar'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Más';}" />    </div><div>    <div class="spoiler" style="display: none;">Todos nuestros servicios se hacen por profesionales preparados y con los procedimientos técnicos correctos, que satisfacen las necesidades de los clientes, con unos costes adecuados, proporcionando éxito a la empresa, con valores y principios éticos y satisfacción de los trabajadores.</div></div>
+  <!-- Use a button to pause/play the video with JavaScript -->
+          </div>
+        </div>
+          <div class="mySlides w3-animate-top">
+            <img src="img/icons/slideshow/soporte1.png" class="photog">
+            <div class="content1">
+  <h1>Soporte y Reparación de Equipos de Computo </h1>
+<!-- Use a button to pause/play the video with JavaScript -->
+  <div class="pre-spoiler">    <span style="color: white;"></span> <input type="button" id="myBtn" value="Más" style="width:80px;font-size:15px;margin:0px;padding:0px;" onclick=    "if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ocultar'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Más';}" />    </div><div>    <div class="spoiler" style="display: none;">Mantenimiento e instalación de hardware y software, instalación de sistemas operativos, accesorios, soporte.</div></div>
+          </div>
+          </div>
+          <div class="mySlides w3-animate-top">
+            <img src="img/icons/slideshow/red.png" class="photog">
+            <div class="content1">
+  <h1>Redes de Datos, Wifi, VPN, Firewall</h1>
+  <div class="pre-spoiler">    <span style="color: white;"></span> <input type="button" id="myBtn" value="Más" style="width:80px;font-size:15px;margin:0px;padding:0px;" onclick=    "if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ocultar'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Más';}" />    </div><div>    <div class="spoiler" style="display: none;">Configuración de redes LAN y Inalámbricas y filtrado de contenido Web.</div></div>
+          </div>
+          </div>
+          <div class="mySlides w3-animate-top">
+            <img src="img/icons/slideshow/equipo.png" class="photog">
+            <div class="content1">
+  <h1>  Capacidad técnica en ejecución de proyectos tanto personal técnico y equipo de trabajo. </h1>
+          </div>
+          </div>
+          <div class="mySlides w3-animate-top">
+            <img src="img/icons/slideshow/based.png" class="photog">
+            <div class="content1">
+  <h1>Base de Datos</h1>
+  <div class="pre-spoiler">    <span style="color: white;"></span> <input type="button" id="myBtn" value="Más" style="width:80px;font-size:15px;margin:0px;padding:0px;" onclick=    "if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';this.innerText = ''; this.value = 'Ocultar'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Más';}" />    </div><div>    <div class="spoiler" style="display: none;">-Gestión digital de correspondencia: <br>Entradas y salidas <br>
+-Gestión electrónica de archivos físicos. 
+<br>
+-Automatización de procesos mediante flujo de trabajo 
+<br>
+-Microfilmación de archivos</div></div>
+          </div>
+          </div>
+      <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
       </div>
+      <!-- Optional: some overlay text to describe the video -->
     </section>
     <section class="p-0" id="portfolio">
       <div class="col-lg-12 text-center">
@@ -306,6 +343,24 @@
     <script src="js/creative.min.js"></script>
     <script src="js/slideshow.js"></script>
     <script src="js/supportonline.js"></script>
+    <script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+    if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+    } else {
+        video.pause();
+        btn.innerHTML = "Play";
+    }
+}
+</script>
 
   </body>
 

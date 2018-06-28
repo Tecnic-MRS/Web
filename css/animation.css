@@ -196,10 +196,17 @@ clear: both;
   background: #E83028;
 }
 
+.containergalery {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
 .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    color: black;
 }
 
 .top-left {
@@ -226,13 +233,50 @@ clear: both;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.containergalaery{
-    text-align:center
-}
 
 .photog{
   height: 50%;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#Myphoto {
+
+    right: 0;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content1 {
+    bottom: 0;
+    background-color: #0099ff;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 3px 10px;
+    border: #1e88e5 5px solid;
+    border-radius: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 3px 10px;
+    border: #1e88e5 5px solid;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
 }
 
 
